@@ -1,10 +1,10 @@
 function Resume() {
   return (
-    <section className="resume-section page-section">
+    <section className='resume-section page-section'>
       <h2>Resume</h2>
 
-      <div className="skills-list">
-        <div>
+      <div className='skills-list'>
+        <div id='frontend'>
           <h2>Front-End</h2>
           <ul>
             <li>HTML</li>
@@ -14,6 +14,8 @@ function Resume() {
             <li>jQuery</li>
             <li>Bootstrap</li>
           </ul>
+        </div>
+        <div id='backend'>
           <h2>Back-End</h2>
           <ul>
             <li>MongoDB</li>
@@ -22,17 +24,22 @@ function Resume() {
             <li>mySQL</li>
           </ul>
         </div>
-
-        <h2>Education</h2>
-        <p>B.A. in Studio Art | University of Texas at Austin | 2007-2011</p>
-        <a
-          className="download"
-          href="https://www.linkedin.com/in/irjaimes/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Download HERE
-        </a>
+        <div id='education'>
+          <h2>Education</h2>
+          <span>
+            B.A. in Studio Art | University of Texas at Austin | 2007-2011
+          </span>
+          <br></br>
+          <br></br>
+          <a
+            className='download'
+            href='https://www.linkedin.com/in/irjaimes/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Download <b>HERE</b>
+          </a>
+        </div>
       </div>
     </section>
   );

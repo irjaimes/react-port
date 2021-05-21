@@ -282,6 +282,16 @@ button:active {
 a.download {
   padding: 0;
 }
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.2em;
+}
+#frontend,
+#backend,
+#education {
+  font-size: 1.2em;
+}
 
 /* footer */
 footer {
@@ -338,7 +348,6 @@ svg {
   .page-section > div {
     flex: 0 0 100%;
   }
-
   .page-section > h2 {
     border-right: none;
     border-bottom: 1px solid var(--primary);
@@ -346,15 +355,18 @@ svg {
     text-align: center;
     font-size: 7vw;
   }
-
   h2 {
     margin-bottom: 20px;
-    padding-bottom: 20px;
   }
+  .skills-list {
+    padding: 0 5%;
+  }
+
   .profile-picture {
     margin: auto;
   }
   p {
+    font-size: 1.2em;
     padding: 0 20%;
   }
   form {
@@ -362,6 +374,15 @@ svg {
   }
   .contact-form {
     width: 70%;
+  }
+
+  #frontend,
+  #backend,
+  #education {
+    text-align: center;
+  }
+  .grid-item div {
+    font-size: 1.2em;
   }
 }
 
