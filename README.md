@@ -4,7 +4,7 @@
 
 This is a simple React porfolio.
 
-Deployed App can be found [here](http....)
+Deployed App can be found [here](http://irjaimes.github.io/react-port)
 
 ## Table of Contents
 
