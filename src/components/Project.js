@@ -6,6 +6,25 @@ function Portfolio() {
       <h2>Projects</h2>
       <div className='grid-container'>
         <a
+          className='grid-item stock'
+          href='https://limitless-refuge-10058.herokuapp.com/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <div>
+            <h3>Stock Talk</h3>
+            <span>MongoDB/Express/React/Node/Graphql</span>
+            <span
+              className='repo'
+              href='https://github.com/Stock-Talk/stock-talk-app'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <GrGithub />
+            </span>
+          </div>
+        </a>
+        <a
           className='grid-item recess'
           href='https://pacific-inlet-95494.herokuapp.com/'
           target='_blank'

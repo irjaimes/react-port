@@ -208,6 +208,12 @@ span svg:hover {
 }
 
 /* work images */
+.stock {
+  background-image: url('./images/projects/stocktalk.png');
+  background-position: center;
+  background-position-y: -20px;
+  background-repeat: no-repeat;
+}
 .recess {
   background-image: url('./images/projects/recess.png');
   background-position: center;
