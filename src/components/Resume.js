@@ -31,14 +31,14 @@ function Resume() {
           </span>
           <br></br>
           <br></br>
-          <a
+          {/* <a
             className='download'
             href='https://www.linkedin.com/in/irjaimes/'
             target='_blank'
             rel='noreferrer'
           >
             Download <b>HERE</b>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

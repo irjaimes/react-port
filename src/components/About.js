@@ -1,16 +1,16 @@
 function About() {
   return (
-    <section className="page-section" id="about">
+    <section className='page-section' id='about'>
       <h2>About Me</h2>
       <div>
-        <span className="profile-picture"></span>
+        <span className='profile-picture'></span>
 
         <p>
           My name is Idzel Jaimes, I'm 33, and I'm a self-taught Full-Stack Web
           Developer.
           <br></br>
-          I'm in the last couple of weeks of a Full-Stack bootcamp with the
-          University of Texas at Austin.
+          I've recently completed a Full-Stack coding bootcamp certification
+          with the University of Texas at Austin.
           <br></br>
           <br></br>
           When I'm not practicing code, I am knee deep in my garden.
